@@ -1,0 +1,19 @@
+@media screen and (min-width: 1025px) {
+    ::-webkit-scrollbar {
+        width: 1rem;
+
+        &-track {
+            box-shadow: inset 0 0 5px colors.$dark; 
+            border-radius: 1remx;
+        }
+        
+        &-thumb {
+            background: colors.$dusk; 
+            border-radius: 1rem;
+
+            &:hover {
+                background: colors.$logo; 
+            }
+        }
+    }
+}

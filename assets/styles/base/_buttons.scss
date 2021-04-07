@@ -1,0 +1,8 @@
+@mixin button {
+    font-family: fonts.$main;
+    background-color: colors.$dark;
+    border-radius: 3rem;
+    outline-style: none;
+    border: .1rem solid colors.$shadow;
+    box-shadow: 0 0 .2rem .25rem colors.$light;
+}
